@@ -129,9 +129,10 @@ def calc_atomic_weight(atdic):
     totunc = np.sqrt(totunc)
     return atweight, totunc
         
-def calc_mol_weight(mf, atdb):
+def calc_mol_weight(mf, atdb=None):
     ''' calulate molecular weight and corresponding uncertainty'''
-    
+    if atdb is None:
+        atdb = load_at_weight_db()
     comp = get_comp(mf)
     mw = 0
     unc = 0
