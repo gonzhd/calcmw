@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
@@ -143,4 +144,5 @@ if __name__ == "__main__":
     up_mw = mw[1]/mw[0]*100
     
     print("The molecular weight of %s is: %f +/- %f  (%f %%)" % (mf,*mw,up_mw))
+
     
