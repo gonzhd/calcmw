@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Atomic Number = 1
 Atomic Symbol = H
 Mass Number = 1
@@ -5660,5 +5659,4 @@ Mass Number = 294
 Relative Atomic Mass = 294.21392(71#)
 Isotopic Composition = 
 Standard Atomic Weight =  
->>>>>>> b899d58277bbd6a9ed5819108de975ef3c13252b
 Notes =  
